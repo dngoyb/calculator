@@ -31,11 +31,14 @@ body {
 
 .calc-btn:hover {
     color: black;
-    border: 3px solid #666666;
+    border: 1px solid #666666;
 }
 
 .func-btn {
     background-color: #666666;
+}
+.func-btn:hover {
+    border: 1px solid #4d4d4d;
 }
 .calc-btn:first-child {
     margin-left: 2px;
@@ -60,5 +63,5 @@ body {
 }
 #equal {
     background-color: #004466;
-    height: 20px;
+    /* height: 20px; */
 }
